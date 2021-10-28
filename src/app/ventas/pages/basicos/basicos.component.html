@@ -7,17 +7,26 @@
     </p>
 </div>
 
-<div class="p-grid">
+<div class="grid">
 
-    <div class="p-col-4">
-        <p-card></p-card>
+    <div class="col-4">
+        <p-card header="uppercase"
+            [subheader]="nombreLower | uppercase ">
+            {{ nombreLower | uppercase }}
+        </p-card>
     </div>
 
-    <div class="p-col-4">
-        2
+    <div class="col-4">
+        <p-card header="lowercase"
+        [subheader]="nombreLower | lowercase ">
+            {{ nombreLower | lowercase }}
+        </p-card>
     </div>
 
-    <div class="p-col-4">
-        3
+    <div class="col-4">
+        <p-card header="titlecase"
+        [subheader]="nombreCompleto | titlecase ">
+            {{ nombreCompleto | titlecase }}
+        </p-card>
     </div>
 </div>
