@@ -14,4 +14,6 @@ export class BasicosComponent  {
 
 
   fecha: Date = new Date(); //El día de hoy
+
+  
 }
