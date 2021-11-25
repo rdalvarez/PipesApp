@@ -36,4 +36,14 @@ export class NoComunesComponent {
       //console.log(this.clientes.splice(1,this.clientes.length));
       this.clientes.pop()
     }
+
+    // KeyValue Pipe
+    
+    persona = {
+      nombre: 'Ricardo',
+      edad: 35,
+      direccion: 'Buenos Aires, Argentina'
+    }
+    
+
 }
