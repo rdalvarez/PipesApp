@@ -45,5 +45,19 @@ export class NoComunesComponent {
       direccion: 'Buenos Aires, Argentina'
     }
     
+    heroes = [
+      {
+        nombre: 'Superman',
+        vuela: true
+      },
+      {
+        nombre:'Robin',
+        vuela: true
+      },
+      {
+        nombre:'Aquaman',
+        vuela: false
+      }
+    ]
 
 }
